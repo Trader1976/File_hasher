@@ -9,8 +9,23 @@ from tkinter import filedialog as fd
 import os
 import sys
 import pyAesCrypt
-
-
+#o                     __...__     *
+#              *   .--'    __.=-.             o
+#     |          ./     .-'
+#    -O-        /      /
+#     |        /    '"/               *                     File hasher / encryptor v0.1beta
+#             |     (@)                                         Use at your own risk
+#            |        \                         .           O N L Y   F O R    T E S T I N G
+#            |         \                                        P  U  R  P  O  S  E  S
+# *          |       ___\                  |                     _.~< Trader1976 >~._
+#             |  .   /  `                 -O-
+#              \  `~~\                     |
+#         o     \     \            *
+#                `\    `-.__           .
+#    .             `--._    `--'jgs
+#                       `---~~`                *
+#            *                   o
+#
 def encrypt(key,source):
     output = source+".enc"
     pyAesCrypt.encryptFile(source,output,key)
